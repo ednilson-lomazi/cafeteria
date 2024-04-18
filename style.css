@@ -58,7 +58,7 @@ hr {
 }
 
 footer {
-    padding: 4rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,8 +147,8 @@ footer {
 .btn-container {
     width: 100%;
     max-width: 1120px;
-
-    margin: auto;
+    padding: 0rem 0.1rem;
+    margin: 0rem 2rem;
     transform: translate("0, -50%");
 
 }
@@ -164,9 +164,9 @@ footer {
 .receitas {
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem;
-    max-width: 1120px;
-    margin: auto;
+    padding: 1rem 0rem;
+    max-width: 11200px;
+    margin: 0rem 2rem;
 
 }
 
@@ -191,24 +191,42 @@ footer {
 }
 
 .receitas-cards-container {
-    padding: 0rem 2rem;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
+    
+    margin-right: 0rem;
 }
 
 .card {
     background: #241a1c;
     padding: 2rem;
+    
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    flex-basis: 29rem;
+    flex-basis: 26rem;
     margin-top: 2rem;
 
 }
+
+
+.card-chefe {
+    background: #241a1c;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-basis: 26rem;
+    margin-top: 2rem;
+
+}
+
 
 .card-cabecalho {
     display: flex;
@@ -254,6 +272,11 @@ footer {
 .card-img {
     border-radius: 20rem;
     width: 1.5rem;
+}
+
+.card-img-chefe {
+    border-radius: 0.5rem;
+    width: 10rem;
 }
 
 .card-nome-autor {
